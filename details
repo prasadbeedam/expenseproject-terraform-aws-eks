@@ -20,7 +20,7 @@ DB
 -----
 created DB and schema... DB admins should create necessary tables and users for applications...
 
-mysql -h db-dev.daws78s.online -u root -pExpenseApp1
+mysql -h db-dev.anuprasad.online -u root -pExpenseApp1
 mysql: [Warning] Using a password on the command line interface can be insecure.
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 18
@@ -64,8 +64,8 @@ one more application wants to go internet
 
 one EKS cluster can host multiple applications
 
-R53 roboshop.daws78s.online --> ingress ALB
-rule roboshop.daws78s.online --> roboshop TG
+R53 roboshop.anuprasad.online --> ingress ALB
+rule roboshop.anuprasad.online --> roboshop TG
 
 
 EKS Ingress Setup
