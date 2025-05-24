@@ -1,5 +1,5 @@
 resource "aws_acm_certificate" "expense" {
-  domain_name       = "*.anuprasad.online"
+  domain_name       = "*.prasadbeedam.shop"
   validation_method = "DNS"
 
   tags = merge(
