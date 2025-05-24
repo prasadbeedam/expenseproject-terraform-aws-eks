@@ -16,9 +16,9 @@ variable "common_tags" {
 }
 
 variable "zone_name" {
-  default = "anuprasad.online"
+  default = "prasadbeedam.shop"
 }
 
 variable "zone_id" {
-  default = "Z09535903HQQW5WY5LPXH"
+  default = "Z09605221F3CC18W1YD8H"
 }

@@ -77,7 +77,7 @@ resource "aws_lb_listener_rule" "frontend" {
 
   condition {
     host_header {
-      # expense-dev.anuprasad.online --> frontend pod
+      # expense-dev.prasadbeedam.shop  --> frontend pod
       values = ["expense-${var.environment}.${var.zone_name}"]
     }
   }
